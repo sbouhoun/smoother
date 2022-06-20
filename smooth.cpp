@@ -4,7 +4,7 @@ smoother::smoother(int arraylength)
 {
   numReadings = arraylength;
   lastRead = 0;
-  for(int i=0; i<128; i++)
+  for(int i=0; i<16; i++)
   data[i] = 0;
   total = 0;
   average = 0;

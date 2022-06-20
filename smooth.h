@@ -1,14 +1,12 @@
 #ifndef SMOOTH_H
 #define SMOOTH_H
-#if ARDUINO >= 100
+
 #include "Arduino.h"
-#else
-#include "WProgram.h"
-#endif
+
 
 class smoother {
   private:
-  int data[128];
+  int data[16];
   int total = 0;
   int average = 0;
   int lastRead = 0;
