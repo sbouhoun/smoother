@@ -1,13 +1,13 @@
 Analog input smoothing library for Arduino
 ==========================================
-Copyright 2022 Salah Bouhoun <salah.bouhoun@gmail.com> 
+Copyright 2022 Salah Bouhoun <slh.bouhoun@gmail.com> 
 Provide a simple interface to smooth the analog input reading on Arduino
 
 Installation
 ------------
 Download the directory "smoother" and move it into the "libraries"
 directory inside your sketchbook directory, then restart the Arduino
-IDE. You will then see it listed under File->Examples->smoother.
+IDE. You will then see it listed under File->Sketch->smoother.
 
 Usage
 -----
